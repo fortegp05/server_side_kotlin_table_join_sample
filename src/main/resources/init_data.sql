@@ -21,8 +21,8 @@ INSERT INTO teachers (name) VALUES ('岩手');
 INSERT INTO students (name, seats_id, class_id) VALUES ('一郎', 1, 1);
 INSERT INTO students (name, seats_id, class_id) VALUES ('次郎', 2, 1);
 INSERT INTO students (name, seats_id, class_id) VALUES ('三郎', 3, 1);
-INSERT INTO students (name, seats_id, class_id) VALUES ('四郎', 1, 2);
-INSERT INTO students (name, seats_id, class_id) VALUES ('五郎', 2, 2);
+INSERT INTO students (name, seats_id, class_id) VALUES ('四郎', 4, 2);
+INSERT INTO students (name, seats_id, class_id) VALUES ('五郎', 5, 2);
 
 /* 担当教師と生徒 */
 INSERT INTO courses (student_id, teacher_id) VALUES (1, 1);
